@@ -39,7 +39,8 @@ To provide an accessible and enjoyable way for students to explore astronomy thr
 
 ## 📸 Screenshots
 
-_(Include game screens here if available)_
+![image](https://github.com/user-attachments/assets/b1b955ec-9819-46d2-8e62-2f2174a5891a)
+
 
 ## 🧠 Why This Project?
 
@@ -57,7 +58,6 @@ This was developed for the *Mobile Development (Level 6)* module to:
 
 ## 👨‍🎓 Author
 
-**Mark Brough**  
-Student Roll No: 00628924  
+**Mark Brough**   
 Module Leader: Dr. Ian Drumm  
 University of Salford
