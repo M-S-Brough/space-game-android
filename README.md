@@ -59,5 +59,4 @@ This was developed for the *Mobile Development (Level 6)* module to:
 ## 👨‍🎓 Author
 
 **Mark Brough**   
-Module Leader: Dr. Ian Drumm  
 University of Salford
