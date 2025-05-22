@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameScreen">
+
+    <!-- Sun Image -->
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/sun"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Mercury Image -->
+    <ImageView
+        android:id="@+id/mercury"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/mercury"
+        app:layout_constraintTop_toBottomOf="@id/sun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3" />
+
+
+    <!-- Venus Image -->
+    <ImageView
+        android:id="@+id/venus"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/venus"
+        app:layout_constraintTop_toBottomOf="@id/mercury"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"/>
+
+    <!-- Earth Image -->
+    <ImageView
+        android:id="@+id/earth"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/earth"
+        app:layout_constraintTop_toBottomOf="@id/venus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <!-- Mars Image -->
+    <ImageView
+        android:id="@+id/mars"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mars"
+        app:layout_constraintTop_toBottomOf="@id/earth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"/>
+
+    <!-- Jupiter Image -->
+    <ImageView
+        android:id="@+id/jupiter"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/jupiter"
+        app:layout_constraintTop_toBottomOf="@id/mars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"/>
+
+    <!-- Saturn Image -->
+    <ImageView
+        android:id="@+id/saturn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/saturn"
+        app:layout_constraintTop_toBottomOf="@id/jupiter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"/>
+
+    <!-- Uranus Image -->
+    <ImageView
+        android:id="@+id/uranus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/uranus"
+        app:layout_constraintTop_toBottomOf="@id/saturn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"/>
+
+    <!-- Neptune Image -->
+    <ImageView
+        android:id="@+id/neptune"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/neptune"
+        app:layout_constraintTop_toBottomOf="@id/uranus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"/>
+
+
+    <ImageView
+        android:id="@+id/spaceshipImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="176dp"
+        android:src="@drawable/spaceship"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:visibility="gone"
+        android:backgroundTint="@color/my_button_color"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
